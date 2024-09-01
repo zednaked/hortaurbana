@@ -1,0 +1,263 @@
+
+{
+  "plantas": [
+    {
+      "nome": "Pêssego",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Jaboticaba",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Bananeira",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Mamão pequeno",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Tomate",
+      "quantidade": 6,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Batata",
+      "quantidade": 1,
+      "fase": "plantio",
+      "produzindo": false
+    },
+    {
+      "nome": "Couve",
+      "quantidade": 8,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Brócolis",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Repolho",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Acelga",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Alface",
+      "quantidade": 2,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Quiabo",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Pepino",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Rabanete",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Beterraba",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Berinjela",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Cenoura",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Cenourinha",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Pimentão",
+      "quantidade": 6,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Inhame",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Cebolinha",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Salsinha",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Tomilho",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Salvia",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Alecrim",
+      "quantidade": 2,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Guaco",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Citronela",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Espinheira Santa",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Arruda",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Melissa",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Capuchinha",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Cavalinha",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Hortelã",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Menta",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Citrus",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": true
+    },
+    {
+      "nome": "Dedo de moça (pequeno)",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Dedo de moça (grande)",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Pimenta bode",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Carolina Reaper",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Cambuci",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Magnolia",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "Beijinho",
+      "quantidade": 1,
+      "fase": "crescimento",
+      "produzindo": false
+    },
+    {
+      "nome": "PANC",
+      "quantidade": 3,
+      "fase": "crescimento",
+      "produzindo": true
+    }
+  ]
+}
