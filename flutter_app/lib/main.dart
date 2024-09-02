@@ -344,6 +344,8 @@ class _HortaHomePageState extends State<HortaHomePage> {
 
   void _generateQRCode() {
     final plantsData = json.encode(_plants.map((p) => p.toJson()).toList());
+    final compressedData = gzip.encode(utf8.encode(plantsData));
+    final base64Data = base64Encode(compressedData);
     showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -353,7 +355,7 @@ class _HortaHomePageState extends State<HortaHomePage> {
             width: 300,
             height: 300,
             child: QrImageView(
-              data: plantsData,
+              data: base64Data,
               version: QrVersions.auto,
               size: 280,
             ),
@@ -377,7 +379,10 @@ class _HortaHomePageState extends State<HortaHomePage> {
         onScanResult: (result) {
           if (result != null) {
             try {
-              final data = json.decode(result);
+              final decodedBase64 = base64Decode(result);
+              final decompressedData = gzip.decode(decodedBase64);
+              final plantsData = utf8.decode(decompressedData);
+              final data = json.decode(plantsData);
               final newPlants =
                   (data as List).map((p) => Plant.fromJson(p)).toList();
               setState(() {
